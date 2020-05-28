@@ -1,0 +1,159 @@
+/* Спецификация */
+
+body {
+    font-family: 'Bangers', cursive;
+    font-family: 'fa-brands', cursive;
+    font-family: 'fa-regular', cursive;
+    font-family: 'fa-solid', cursive;
+    }
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Bangers', cursive;
+    color: #ffffff;}
+    h1 {
+        color: #000000;
+        margin-top: 500px;
+        margin-left: 600px;
+    }
+/* Первый экран */
+.header {
+    background: #000000;
+    color: #ffffff;
+    padding-top: 30px;
+}
+
+.menu {
+
+}
+
+.menu__item {
+    margin: 7px;
+    font-size:30px;
+    color: #ffffff;
+}
+
+.menu__item a {
+    color: #ffffff;
+    transition: all .3s linear ;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+}
+.menu__item a:nth-child(1):hover {
+    color: #fcdb00;
+}
+
+.menu__item2 {
+     margin: 3px;
+    color: #ffffff;
+     font-size: 20px;
+}
+
+.menu__item2 a {
+    color: #ffffff;
+    transition: all .3s linear ;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+}
+.menu__item2 a:nth-child(1):hover {
+    color: #fcdb00;
+}
+
+
+.menu__item3 {
+    font-family: 'Bangers', cursive;
+    background: #fcdb00;
+}
+.menu__item3 a {
+    font-size: 23px;
+    color: #000000;transition: all .3s linear ;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+}
+.menu__item3 a:nth-child(1):hover {
+    color: #ffffff;
+}
+
+
+.content {
+    display: block;
+    margin: -150px auto;
+    margin-right: 220px;
+}
+
+.offer {
+    color: #000000;
+
+}
+
+.offer__title {
+
+
+ }
+
+.form {
+    margin-left: 570px;
+    font-family: 'Bangers', cursive;
+}
+
+.form_input {
+    border-radius: 3px;
+    width: 480px;
+}
+.form2 {
+    margin-left: 570px;
+    font-family: 'Bangers', cursive;
+}
+.form_input2 {
+    border-radius: 3px;
+    width: 480px;
+}
+.form3 {
+    margin-left: 570px;
+    font-family: 'Bangers', cursive;
+}
+.form_input3 {
+    border-radius: 3px;
+    width: 480px;
+    height: 250px;
+}
+.form4 {
+    color: #ffffff;
+
+}
+.form__btn {
+    margin-top: 10px;
+    margin-left: 760px;
+    font-family: 'Bangers', cursive;
+    color: #ffffff;
+    background: #000000;
+}
+.offert {
+    background: #000000;
+}
+.offer__titlefoot {
+    color: #ffffff;
+    background: #000000;
+}
+.form5 {
+    margin-left: 570px;
+    font-family: 'Bangers', cursive;
+
+}
+.form_input5 {
+    border-radius: 3px;
+    width: 480px;
+}
+.form6 {
+    margin-left: 760px;
+    margin-top: 10px
+}
+.form__btn2 {
+    font-family: 'Bangers', cursive;
+    color: #000000;
+    background: #ffffff;
+}
